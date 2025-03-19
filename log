@@ -362,3 +362,13 @@ exercises.c:69:14: error: invalid operands to binary + (have 'int *' and 'int *'
               ^~ ~~~~~~~~~~~~~~~
 Compilation failed
 9a9d3ed
+Wed, Mar 19, 2025  9:21:47 AM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaLista':
+exercises.c:69:14: error: invalid operands to binary + (have 'int *' and 'void *')
+       (num2) += popCurrent(L);
+              ^~ ~~~~~~~~~~~~~
+Compilation failed
+61a5f20
