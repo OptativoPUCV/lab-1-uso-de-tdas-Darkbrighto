@@ -46,7 +46,7 @@ List* crea_lista() {
    int* num = malloc(sizeof(int));
    if ( num == NULL ) {exit(EXIT_FAILURE);}
    (*num) = 0; 
-   while( (*num) < 11 ;  )
+   while( (*num) < 11 )
    {
       pushBack(L, num);
       (*num)++

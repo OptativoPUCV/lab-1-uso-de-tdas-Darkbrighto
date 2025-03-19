@@ -169,3 +169,13 @@ exercises.c:53:4: error: expected ';' before '}' token
     ^
 Compilation failed
 342d272
+Wed, Mar 19, 2025  9:06:27 AM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crea_lista':
+exercises.c:53:4: error: expected ';' before '}' token
+    }
+    ^
+Compilation failed
+888265c
