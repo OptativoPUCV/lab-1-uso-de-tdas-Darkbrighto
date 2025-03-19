@@ -48,7 +48,7 @@ List* crea_lista() {
    (*num) = 0; 
    while( (*num) < 11 )
    {
-      pushBack(L, num);
+      pushBack(L, (*num));
       (*num)++
    }
    imprime_lista(L);
