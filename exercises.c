@@ -43,6 +43,11 @@ Al finalizar retorna la lista creada.
 
 List* crea_lista() {
    List* L = create_list();
+   for( unsigned short* num = malloc(sizeof(unsigned short)) ; *num < 11 ; (*num)++ )
+   {
+      pushBack(L, num);
+   }
+   imprime_lista(L)
    return L;
 }
 
