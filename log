@@ -301,3 +301,13 @@ exercises.c:65:9: error: variable 'num2' set but not used [-Werror=unused-but-se
 cc1.exe: all warnings being treated as errors
 Compilation failed
 0fe2f32
+Wed, Mar 19, 2025  9:16:48 AM: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaLista':
+exercises.c:69:18: error: dereferencing pointer to incomplete type 'List {aka struct List}'
+       (num2) += (*L);
+                  ^~
+Compilation failed
+fec46e3

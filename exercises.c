@@ -63,13 +63,14 @@ retorne la suma de sus elementos.
 int sumaLista(List *L) {
 
    int* num2 = (int*) malloc(sizeof(int));
+   (*num2) = 0;
    while( L != NULL )
    {
       (num2) += (*L);
       next(L);
    }
    
-   return 0;
+   return (*num2);
 }
 
 /*
