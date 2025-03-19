@@ -311,3 +311,13 @@ exercises.c:69:18: error: dereferencing pointer to incomplete type 'List {aka st
                   ^~
 Compilation failed
 fec46e3
+Wed, Mar 19, 2025  9:18:00 AM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaLista':
+exercises.c:69:14: error: invalid operands to binary + (have 'int *' and 'List * {aka struct List *}')
+       (num2) += (L);
+              ^~
+Compilation failed
+a15aa24
