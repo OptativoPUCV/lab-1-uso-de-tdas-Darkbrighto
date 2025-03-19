@@ -235,3 +235,9 @@ exercises.c:48:25: error: expected ',' or ';' before 'malloc'
                          ^~~~~~
 Compilation failed
 0c14e7a
+Wed, Mar 19, 2025  9:11:11 AM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|4
+total_score: 10/70
+4393ce6
