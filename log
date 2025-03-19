@@ -156,3 +156,16 @@ Wed, Mar 19, 2025  9:02:40 AM:
  tests:  0|5
 total_score: 0/70
 d5307ea
+Wed, Mar 19, 2025  9:05:42 AM: 
+ exercises.c | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crea_lista':
+exercises.c:49:23: error: expected ')' before ';' token
+    while( (*num) < 11 ;  )
+                       ^
+exercises.c:53:4: error: expected ';' before '}' token
+    }
+    ^
+Compilation failed
+342d272
