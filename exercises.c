@@ -66,7 +66,7 @@ int sumaLista(List *L) {
    (*num2) = 0;
    while( L != NULL )
    {
-      (num2) += popCurrent(L);
+      (num2) = popCurrent(L);
       next(L);
    }
    
