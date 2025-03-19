@@ -43,13 +43,11 @@ Al finalizar retorna la lista creada.
 
 List* crea_lista() {
    List* L = create_list();
-   int* num = malloc(sizeof(int));
-   if ( num == NULL ) {exit(EXIT_FAILURE);}
-   (*num) = 0; 
+   int num = 0; 
    while( (*num) < 11 )
    {
-      pushBack(L, (*num));
-      (*num)++
+      pushBack(L, (num));
+      (num)++
    }
    imprime_lista(L);
    return L;
