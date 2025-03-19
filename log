@@ -222,3 +222,16 @@ exercises.c:51:4: error: expected ';' before '}' token
 cc1.exe: all warnings being treated as errors
 Compilation failed
 b4baf87
+Wed, Mar 19, 2025  9:10:50 AM: 
+ exercises.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crea_lista':
+exercises.c:48:20: error: expected expression before 'int'
+       int* num = (*int) malloc(sizeof(int));
+                    ^~~
+exercises.c:48:25: error: expected ',' or ';' before 'malloc'
+       int* num = (*int) malloc(sizeof(int));
+                         ^~~~~~
+Compilation failed
+0c14e7a
