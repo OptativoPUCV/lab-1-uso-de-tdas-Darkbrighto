@@ -287,3 +287,17 @@ Wed, Mar 19, 2025  9:14:03 AM:
  tests:  1|4
 total_score: 10/70
 04131ec
+Wed, Mar 19, 2025  9:16:18 AM: 
+ exercises.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaLista':
+exercises.c:68:18: error: dereferencing pointer to incomplete type 'List {aka struct List}'
+       (num2) += (*L);
+                  ^~
+exercises.c:65:9: error: variable 'num2' set but not used [-Werror=unused-but-set-variable]
+    int* num2 = (int*) malloc(sizeof(int));
+         ^~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+0fe2f32
