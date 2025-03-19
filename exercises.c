@@ -49,7 +49,6 @@ List* crea_lista() {
       *(num) = i;
       pushBack(L, num);
    }
-   imprime_lista(L);
    return L;
 }
 
