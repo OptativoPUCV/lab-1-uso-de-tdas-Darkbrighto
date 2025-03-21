@@ -89,13 +89,13 @@ void eliminaElementos(List*L, int elem){
    {
       if ( elem == (*num2) )
       {
-         *popCurrent(L);
+         popCurrent(L);
+         num2 = first(L);
+      }else
+      {
+         num2 = next(L);
       }
-      
-      num2 = next(L);
    }
-   
-   return suma;
 }
 
 /*
